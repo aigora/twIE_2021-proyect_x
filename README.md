@@ -5,7 +5,9 @@ Con el uso de Arduino, recoger datos con sensores, organizarlos y clasificarlos 
 ## Integrantes del equipo
 
 Gabriel Santos Jericó @Gabriel-S-J
+Álvaro Velasco Muela @AlvaroVelascoMuela
 
 ## Objetivos del trabajo
 
-[Lista de los objetivos que se persiguen con el trabajo propuesto.]
+- Crear un código junto con arduino que permita analizar y guardar datos con los que poder realizar tablas de memoria.
+
