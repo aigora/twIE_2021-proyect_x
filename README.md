@@ -6,6 +6,7 @@ Con el uso de Arduino, recoger datos con sensores, organizarlos y clasificarlos 
 
 Gabriel Santos Jericó @Gabriel-S-J
 Álvaro Velasco Muela @AlvaroVelascoMuela
+Guillermo Quero Ponce @GuillermoQueroPonce
 
 ## Objetivos del trabajo
 
