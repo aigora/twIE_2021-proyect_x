@@ -1,10 +1,10 @@
-# [Título del trabajo]
+# [Proyect_X]
 
-[Descripción breve del proyecto a realizar (2-3 frases).]
+Con el uso de Arduino, recoger datos con sensores, organizarlos y clasificarlos en una base de datos.
 
 ## Integrantes del equipo
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
+Gabriel Santos Jericó @Gabriel-S-J
 
 ## Objetivos del trabajo
 
