@@ -17,5 +17,5 @@ Con el uso de Arduino, recoger datos con sensores, organizarlos y clasificarlos 
 
 ## Objetivos del trabajo
 
-- Crear un código junto con arduino que permita analizar y guardar datos con los que poder realizar tablas de memoria.
-
+- Este trabajo constará de una placa "Arduino UNO",conectada a dos sensores, un sesnor "DHT11",que mide temperatura y humedad ambiental y otro sensor "TPM36", que solo mide temperatura. En primer lugar los dos sensores harán una medición de temperatura ,y calculará el error relativo entre ambas y depués se tomará el valor de la humedad,cada x tiempo.
+ Por otro lado habrá otro programa en C que organice los datos, que haga una media aritmética y que nos avise si la temperatura y humedad baja o sube de unos valores previamente estabclecidos por teclado.
