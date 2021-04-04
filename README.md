@@ -4,16 +4,16 @@ Con el uso de Arduino, recoger datos con sensores, organizarlos y clasificarlos 
 
 ## Integrantes del equipo
 
-**Gabriel Santos Jericó** @Gabriel-S-J
+**Gabriel Santos Jericó** [@Gabriel-S-J](https://github.com/Gabriel-S-J)
 
 
-**Álvaro Velasco Muela** @AlvaroVelascoMuela
+**Álvaro Velasco Muela** [@AlvaroVelascoMuela](https://github.com/AlvaroVelascoMuela)
 
 
-**Guillermo Quero Ponce** @GuillermoQueroPonce
+**Guillermo Quero Ponce** [@GuillermoQueroPonce](https://github.com/GuillermoQueroPonce)
 
 
-**Mario Torre Merino** @MarioTorre
+**Mario Torre Merino** [@MarioTorre](https://github.com/MarioTorre)
 
 ## Objetivos del trabajo
 
