@@ -1,45 +1,50 @@
 #include <stdio.h>
 #include <math.h>
 
+
 int main()
 {
-    int n, opcion;
-
-    do
-    {
-        printf( "\n   1. Comprobacion/calibracion de los sensores.", 163 );
-        printf( "\n   2. Intervalos.", 163 );
-        printf( "\n   3. Medicion.", 163 );
+    int  opcion,cal;
+    float hmin,hmax,tmin,tmax;
+    char palabra[4];
+    do{
+        printf( "\n   1. Comprobacion/calibracion de los sensores.");
+        printf( "\n   2. Intervalos.");
+        printf( "\n   3. Medicion.");
         printf( "\n   4. Salir." );
-
-        /* Filtramos la opción elegida por el usuario */
-        do
-        {
-            printf( "\n   Introduzca opci%cn (1-4): ", 162 );
+ 
+/* Filtramos la opción elegida por el usuario */
+        do{
+            printf( "\n   Introduzca opcion (1-4): ");
             scanf( "%d", &opcion );
-
         } while ( opcion < 1 || opcion > 4 );
         /* La opción sólo puede ser 1, 2, 3 ó 4 */
-
-        switch ( opcion )
-        {
-            case 1: printf( "\n   La calibracion es correcta? ", 163 );
-                    scanf( "%d", &n );
-
+        switch ( opcion ){
+            case 1:
+                printf("\n   La calibracion es correcta? ");
+                printf("\n   si(1) o no(0) ");
+                    scanf( "%d", &cal );
                     break;
-
-            case 2: printf( "\n   Introduzca los intervalos deseados: ", 163 );
-                    scanf( "%d", &n );
-
+            case 2:
+                printf( "\n   Introduzca los intervalos deseados: ");
+                printf("\n  intervalo de confianza de humedad(min,max):");
+                scanf("%f,%f",&hmin,&hmax);
+                printf("\n  intervalo de confianza de temperatura(min,max):");
+                scanf("%f,%f",&tmin,&tmax);
                     break;
-
-            case 3: printf( "\n   Que quiere medir? ", 163 );
-                    scanf( "%d", &n );
-
+            case 3:
+                printf( "\n   Que quiere medir? ");
+                printf("\n ¿Temperatura(tpm) o Humedad(hum)?: ");
+                    scanf( "%4s", palabra );
+                break;
+            default:
+                printf("dato erroneo");
          }
-
     } while ( opcion != 4 );
 
+ 
+
     return 0;
+
 }
 
