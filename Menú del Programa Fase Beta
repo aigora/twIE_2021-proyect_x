@@ -1,1 +1,45 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int n, opcion;
+
+    do
+    {
+        printf( "\n   1. Comprobacion/calibracion de los sensores.", 163 );
+        printf( "\n   2. Intervalos.", 163 );
+        printf( "\n   3. Medicion.", 163 );
+        printf( "\n   4. Salir." );
+
+        /* Filtramos la opción elegida por el usuario */
+        do
+        {
+            printf( "\n   Introduzca opci%cn (1-4): ", 162 );
+            scanf( "%d", &opcion );
+
+        } while ( opcion < 1 || opcion > 4 );
+        /* La opción sólo puede ser 1, 2, 3 ó 4 */
+
+        switch ( opcion )
+        {
+            case 1: printf( "\n   La calibracion es correcta? ", 163 );
+                    scanf( "%d", &n );
+
+                    break;
+
+            case 2: printf( "\n   Introduzca los intervalos deseados: ", 163 );
+                    scanf( "%d", &n );
+
+                    break;
+
+            case 3: printf( "\n   Que quiere medir? ", 163 );
+                    scanf( "%d", &n );
+
+         }
+
+    } while ( opcion != 4 );
+
+    return 0;
+}
 
