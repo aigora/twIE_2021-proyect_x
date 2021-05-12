@@ -1,0 +1,25 @@
+#include "TinyDHT.h" //Se incluye la librería del sensor DHT.
+DHT dht(2, DHT11);//Se define que el sensor DHT está conectado a
+// la entrada digital(2).
+
+
+
+
+void setup() {
+// put your setup code here, to run once:
+int Led_a=5;//Se define donde está conectado el led que
+//parpadea al tomar la medición.
+pinMode(Led_a,OUTPUT);
+
+
+
+pinMode(A0,INPUT);//Se define donde está el otro sensor de temperatura
+//TPM36
+
+
+
+Serial.begin(9600);//Abre comunicación con el monitor serial a 9600 baudios.
+
+
+
+}
