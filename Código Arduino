@@ -50,6 +50,15 @@ digitalWrite(Led_a,LOW);//Estas 3 líneas de código hacen que al inicio
 Serial.print("temperatura TMP36 = ");
 Serial.println(tempcent);//Estas 2 líneas de código imrpimen la temperatura
                          //que lee el TMP36 en el monitor serial
+Serial.println("LECTURA DEL DHT11:");
+Serial.print("Humidity: ");
+Serial.print(h);
+Serial.print(" %\t");
+Serial.print("Temperature: ");
+Serial.print(t);
+Serial.println(" *C;");//Etas lineas de código imprimen la s del DHT11.
+delay(5000);//Hace esperar 5 segundos (5000 milisegundos) entre mediciones.
 
+}
 
 
